@@ -1,6 +1,6 @@
 # Git: Version Control Foundations
 
-Version control is a fundamental skill for developers and researchers.
+Version control is a fundamental skill for developers.
 Git lets you track changes, collaborate with others, and maintain a
 history of your work.  This folder contains a series of guides to
 introduce Git from the ground up.
