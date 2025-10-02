@@ -109,3 +109,8 @@ Git provides several ways to undo:
 
 Understanding the differences between these commands helps you recover
 from mistakes safely.
+
+## Learn more
+
+For hands-on practice with branching and merging concepts:
+* [Learn Git Branching](https://learngitbranching.js.org/) – Interactive tool that visualizes branches and merges as you practice Git commands

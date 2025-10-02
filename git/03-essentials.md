@@ -57,6 +57,11 @@ Use `git diff` to view unstaged changes and `git diff --staged`
 to see changes in the staging area.  These commands help you review
 what will be committed.
 
+## Learn more
+
+For a visual demonstration of these essential Git commands, watch:
+* [Quick Wins with Git](https://git-scm.com/videos) (5:06) – Essential Git commands and workflows
+
 ### Exercise
 
 1. Initialise a new repository.

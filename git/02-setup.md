@@ -51,3 +51,8 @@ git config --list --global
 ```
 
 With Git installed and configured, you are ready to start using it.
+
+## Learn more
+
+For a quick visual walkthrough of getting started with Git, watch:
+* [Get Going with Git](https://git-scm.com/videos) (4:26) – Quick start guide covering installation and basic setup

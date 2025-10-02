@@ -32,3 +32,9 @@ advantages of Git include:
 
 Git might seem intimidating at first, but with practice it becomes a
 powerful tool for managing projects of any size.
+
+## Learn more
+
+For visual learners, these short videos from the Git team provide excellent introductions:
+* [What is Version Control?](https://git-scm.com/videos) (5:59) – Explains the fundamental concepts
+* [What is Git?](https://git-scm.com/videos) (8:15) – Introduction to Git specifically
