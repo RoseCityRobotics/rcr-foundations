@@ -2,8 +2,16 @@
 
 Docker provides an easy way to build, run and share containerised
 applications.  This guide shows how to install Docker Engine on Ubuntu
-24.04 running on a Raspberry Pi 5.  The steps are adapted from the
-official Docker documentation for Ubuntu【608065015325007†L935-L1003】.
+24.04 running on a Raspberry Pi 5.  The steps are adapted from the
+[official Docker documentation for Ubuntu](https://docs.docker.com/engine/install/ubuntu/).
+
+## New to Docker?
+
+If you're new to Docker or building with containers, these resources provide excellent introductions:
+
+* **[Docker Overview](https://docs.docker.com/get-started/overview/)** – Official Docker documentation explaining containers and their benefits
+* **[Docker Containers Explained](https://www.youtube.com/watch?v=_dfLOzuIg2o)** – TechSquidTV video covering Docker basics (YouTube)
+* **[The Docker Handbook](https://www.freecodecamp.org/news/the-docker-handbook/)** – Comprehensive guide by FreeCodeCamp
 
 ## Install using the apt repository
 
@@ -49,7 +57,7 @@ official Docker documentation for Ubuntu【608065015325007†L935-L1003】.
    ```
 
    These packages install the Docker daemon, CLI, container runtime
-   and the `docker compose` command【608065015325007†L935-L1003】.
+   and the `docker compose` command.
 
 6. **Verify the installation:**
 
@@ -58,7 +66,7 @@ official Docker documentation for Ubuntu【608065015325007†L935-L1003】.
    ```
 
    Docker downloads a test image, runs it and prints a confirmation
-   message【608065015325007†L935-L1003】.  If you see "Hello from Docker!", the
+   message.  If you see "Hello from Docker!", the
    installation succeeded.
 
 ## Manage Docker as a non‑root user
