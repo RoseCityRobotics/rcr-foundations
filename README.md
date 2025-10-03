@@ -7,13 +7,14 @@ Welcome to **RCR Foundations**, a collection of concise, practical guides design
 | Area | Description |
 | --- | --- |
 | **[UNIX](unix/README.md)** | Become productive at the command line. Covers terminal basics, navigation, text editors, permissions, and shell scripting. |
-| **[Git](git/README.md)** | Learn version control from the ground up: why Git matters, how to set it up, commit, branch and merge, work with remotes and GitHub, and use GitHub CLI. |
-| **[Raspberry Pi 5 + Ubuntu 24](rpi-ubuntu/README.md)** | Flash Ubuntu 24 onto a Raspberry Pi 5, complete first‑boot setup, manage packages, configure remote development with VS Code, build servers, and troubleshoot common issues. |
-| **[Microcontrollers](microcontrollers/README.md)** | Install Arduino CLI, add Teensy board support, compile sketches, and upload firmware using the Teensy loader CLI. |
-| **[Docker](docker/README.md)** | Set up Docker Engine on Ubuntu 24 ARM64 (Pi 5) using the official apt repository and learn basic container usage. |
-| **[Imaging & Flashing](imaging/README.md)** | Flash disk images onto Raspberry Pi microSD cards using Raspberry Pi Imager or `dd`, and flash firmware onto Teensy microcontrollers. |
+| **[Git](git/README.md)** | Learn version control from the ground up: why Git matters, how to set it up, commit, branch and merge, work with remotes and GitHub, and use GitHub CLI. |
+| **[Raspberry Pi 5 + Ubuntu 24](rpi-ubuntu/README.md)** | Flash Ubuntu 24 onto a Raspberry Pi 5, complete first‑boot setup, manage packages, configure remote development with VS Code, build servers, and troubleshoot common issues. |
+| **[Microcontrollers](microcontrollers/README.md)** | Install Arduino CLI, add Teensy board support, compile sketches, and upload firmware using the Teensy loader CLI. |
+| **[Docker](docker/README.md)** | Set up Docker Engine on Ubuntu 24 ARM64 (Pi 5) using the official apt repository and learn basic container usage. |
+| **[Data Labeling](data-labeling/README.md)** | Learn data annotation fundamentals and set up Label Studio on your Raspberry Pi for creating high-quality labeled datasets for machine learning projects. |
+| **[Imaging & Flashing](imaging/README.md)** | Flash disk images onto Raspberry Pi microSD cards using Raspberry Pi Imager or `dd`, and flash firmware onto Teensy microcontrollers. |
 | **[Windows Tools](windows/README.md)** | Use PuTTY as an SSH terminal on Windows; learn copy/paste semantics and how to manage sessions. |
-| **[Development Tools](dev-tools/README.md)** | Install and configure GitHub CLI on Linux, macOS and Windows; set up the Cursor AI code editor on personal machines (Mac/Windows). |
+| **[Development Tools](dev-tools/README.md)** | Install and configure GitHub CLI on Linux, macOS and Windows; set up the Cursor AI code editor on personal machines (Mac/Windows). |
 
 ## Who this is for
 
@@ -28,7 +29,7 @@ These guides were written for adult learners and professionals who may be new to
 
 ## Installing tools on personal vs. Pi machines
 
-Most of the microcontroller development and robotics code will run on your **Raspberry Pi 5 running Ubuntu 24**.  This includes the Arduino CLI, Teensy board support, Docker, and server software.  Tools such as **GitHub CLI** and the **Cursor AI editor** should be installed on your **own laptop or desktop (macOS or Windows)**.  When a guide requires installation on a personal machine versus on the Raspberry Pi, it calls this out explicitly.
+Most of the microcontroller development and robotics code will run on your **Raspberry Pi 5 running Ubuntu 24**.  This includes the Arduino CLI, Teensy board support, Docker, Label Studio, and server software.  Tools such as **GitHub CLI** and the **Cursor AI editor** should be installed on your **own laptop or desktop (macOS or Windows)**.  When a guide requires installation on a personal machine versus on the Raspberry Pi, it calls this out explicitly.
 
 ## Contributing
 
