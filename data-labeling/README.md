@@ -46,6 +46,31 @@ This tutorial covers:
 * Setting up Label Studio
 * Best practices for data labeling workflows
 
+## Teachable Machine: Learn Dataset Creation Concepts
+
+**[Teachable Machine by Google](https://teachablemachine.withgoogle.com/)** is an excellent starting point for understanding how datasets are created and used in machine learning. This web-based tool lets you train your own machine learning models without any coding, making it perfect for learning the fundamentals of data collection and model training.
+
+### What You Can Do
+
+* **Image Classification** – Collect photos and train models to recognize different objects, people, or scenes
+* **Audio Classification** – Record sounds and train models to recognize different audio patterns
+* **Pose Classification** – Use your webcam to train models that recognize body positions and movements
+
+### Learning Resources
+
+* **[Teachable Machine Official Site](https://teachablemachine.withgoogle.com/)** – Interactive platform for creating ML models
+* **[Getting Started Guide](https://teachablemachine.withgoogle.com/train)** – Step-by-step instructions for your first model
+
+### Why Start with Teachable Machine?
+
+Before diving into professional tools like Label Studio, Teachable Machine helps you understand:
+* How to collect consistent, high-quality training data
+* The importance of balanced datasets
+* How data quality affects model performance
+* The iterative process of improving models with better data
+
+Try creating a simple image classifier with Teachable Machine first, then move to Label Studio for more advanced projects requiring professional annotation workflows.
+
 ### Installation on Raspberry Pi
 
 Label Studio can be installed on your Raspberry Pi 5 running Ubuntu 24 using Docker (see our Docker guide) or directly with Python. The platform is lightweight enough to run efficiently on Pi hardware while providing a full-featured web interface for data labeling tasks.
@@ -61,9 +86,17 @@ Data labeling is particularly valuable in robotics applications:
 
 ## Next Steps
 
-1. Follow the [Label Studio tutorial](https://labelstud.io/learn/getting-started-with-label-studio/get-started-with-data-labeling/) to understand data labeling fundamentals
-2. Install Label Studio on your Raspberry Pi 5
-3. Create your first annotation project
-4. Integrate labeled data into your ML training pipeline
+### Recommended Learning Path
 
-Data labeling is a foundational skill for any serious machine learning or robotics project. With Label Studio running on your Pi, you'll have a powerful, flexible platform for creating the high-quality labeled datasets that drive successful ML models.
+1. **Start with Teachable Machine** – Create your first ML model to understand dataset creation fundamentals
+2. **Follow the Label Studio tutorial** – [Get Started with Data Labeling](https://labelstud.io/learn/getting-started-with-label-studio/get-started-with-data-labeling/)
+3. **Install Label Studio** on your Raspberry Pi 5 for professional projects
+4. **Create your first annotation project** with real data
+5. **Integrate labeled data** into your ML training pipeline
+
+### From Simple to Professional
+
+* **Teachable Machine** → Understanding concepts, quick experiments
+* **Label Studio** → Professional workflows, complex projects, collaborative annotation
+
+Data labeling is a foundational skill for any serious machine learning or robotics project. Starting with Teachable Machine gives you intuitive understanding, while Label Studio running on your Pi provides a powerful, flexible platform for creating the high-quality labeled datasets that drive successful ML models.
